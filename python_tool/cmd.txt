@@ -1,0 +1,5 @@
+pyinstaller --onefile --nowindowed --noconsole MainSerial.py
+
+pyinstaller -F mycode.py --noconsole
+
+还可以这样pyinstaller -F -w mycode.py (-w就是取消窗口)
